@@ -1,0 +1,44 @@
+#domates {
+  color: maroon;
+  background-color: maroon;
+  border: 4px dotted red;
+  text-shadow: 0 0 3px red;
+}
+
+#biber {
+  color: greenyellow;
+  background-color: green;
+  border: 4px dashed greenyellow;
+}
+
+#patlican,
+#biber {
+  text-align: center;
+  display: inline-block;
+}
+
+#patlican {
+  color: violet;
+  background-color: purple;
+  border: 4px solid violet;
+}
+
+.meyve-sebze {
+  border-radius: 20px;
+  margin: 15px 50px 7.5px;
+  padding: 2.5px 12.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#meyveler {
+  padding: 7.5px;
+  text-align: center;
+  border-radius: 5px;
+  background: powderblue;
+}
+
+#sebzeler {
+  margin: 10px 0;
+  border-radius: 5px;
+  background: wheat;
+}
