@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Egitim Ogretim - JS Esenlik</title>
+  </head>
+
+  <body>
+    <h1 id="meyvelerBaslik">Meyveler</h1>
+
+    <script>
+      var meyvelerBaslikElementi = document.getElementById("meyvelerBaslik");
+      var meyveEkleButonu = document.createElement("button");
+
+      meyveEkleButonu.innerHTML = "Meyve Ekle!";
+      meyvelerBaslikElementi.innerHTML = "Meyve Sepeti";
+
+      meyvelerBaslikElementi.after(meyveEkleButonu);
+    </script>
+  </body>
+</html>
